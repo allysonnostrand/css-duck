@@ -1,0 +1,67 @@
+* {
+    background-color: rgb(232, 210, 174);
+    margin: 0 auto;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.duck-head {
+    background-color: aliceblue;
+    height: 140px;
+    width: 155px;
+    border-radius: 90px;
+}
+
+.duck-eye-l {
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    position: relative;
+    top: 50px;
+    left: 25px;
+    border-radius: 50px;
+}
+
+.duck-eye-r {
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    position: relative;
+    top: 35.5px;
+    right: 25px;
+    border-radius: 50px;
+}
+
+.duck-beak {
+    background-color: orange;
+    height: 60px;
+    width: 50px;
+    border-radius: 0% 100% 51% 49% / 0% 0% 100% 100%;
+    position: relative;
+    top: 52px;
+}
+
+.duck-beak-d1 {
+    background-color: black;
+    height: 5px;
+    width: 5px;
+    position: relative;
+    right: 11px;
+    top: 10px;
+    border-radius: 51% 49% 50% 50% / 26% 28% 72% 74%;
+}
+
+.duck-beak-d2 {
+    background-color: black;
+    height: 5px;
+    width: 5px;
+    position: relative;
+    left: 11px;
+    top: 5px;
+    border-radius: 51% 49% 50% 50% / 26% 28% 72% 74%;
+}

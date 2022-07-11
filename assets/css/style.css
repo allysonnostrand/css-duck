@@ -14,6 +14,8 @@ h1 {
     background-color: aliceblue;
     height: 140px;
     width: 155px;
+    position: relative;
+    left: 45px;
     border-radius: 90px;
 }
 
@@ -64,4 +66,55 @@ h1 {
     left: 11px;
     top: 5px;
     border-radius: 51% 49% 50% 50% / 26% 28% 72% 74%;
+}
+
+.duck-body {
+    background-color: aliceblue;
+    height: 200px;
+    width: 270px;
+    border-radius: 50% 50% 44% 56% / 63% 63% 37% 37%;
+}
+
+.duck-wing {
+    background-color: aliceblue;
+    height: 100px;
+    width: 100px;
+    border: black solid 4px;
+    position: relative;
+    top: 30px;
+    border-radius: 47% 53% 57% 43% / 100% 0% 100% 0%;
+    border-top: none;
+}
+
+.duck-leg-l {
+    background-color: orange;
+    height: 65px;
+    width: 10px;
+    position: relative;
+    top: 90px;
+}
+
+.duck-leg-r {
+    background-color: orange;
+    height: 65px;
+    width: 10px;
+    position: relative;
+    top: 30px;
+    left: 30px
+}
+
+.duck-foot-l {
+    background-color: orange;
+    height: 20px;
+    width: 45px;
+    position: relative;
+    top: 50px
+}
+
+.duck-foot-r {
+    background-color: orange;
+    height: 20px;
+    width: 45px;
+    position: relative;
+    top: 50px;
 }

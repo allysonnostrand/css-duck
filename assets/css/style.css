@@ -1,3 +1,9 @@
+:root {
+    --orange: #ff9258;
+    --yellow: #fcf4dd;
+    --black:  #2b2b2b;
+}
+
 * {
     margin: 0 auto;
 }
@@ -20,7 +26,7 @@ h1 {
 
 /* duck head--------------------------------------------------------- */
 .duck-head {
-    background-color:rgb(255, 255, 255);
+    background-color: var(--yellow);
     height: 140px;
     width: 155px;
     position: relative;
@@ -29,7 +35,7 @@ h1 {
 }
 
 .duck-eye-l {
-    background-color: black;
+    background-color: var(--black);
     height: 15px;
     width: 15px;
     position: relative;
@@ -39,7 +45,7 @@ h1 {
 }
 
 .duck-eye-r {
-    background-color: black;
+    background-color:  var(--black);
     height: 15px;
     width: 15px;
     position: relative;
@@ -49,7 +55,7 @@ h1 {
 }
 
 .duck-beak {
-    background-color: orange;
+    background-color: var(--orange);
     height: 60px;
     width: 50px;
     border-radius: 0% 100% 51% 49% / 0% 0% 100% 100%;
@@ -58,7 +64,7 @@ h1 {
 }
 
 .duck-beak-d1 {
-    background-color: black;
+    background-color: var(--black);
     height: 5px;
     width: 5px;
     position: relative;
@@ -68,7 +74,7 @@ h1 {
 }
 
 .duck-beak-d2 {
-    background-color: black;
+    background-color: var(--black);
     height: 5px;
     width: 5px;
     position: relative;
@@ -79,17 +85,17 @@ h1 {
 
 /* duck body------------------------------------------------------------- */
 .duck-body {
-    background-color:rgb(255, 255, 255);
+    background-color: var(--yellow);
     height: 200px;
     width: 270px;
     border-radius: 50% 50% 44% 56% / 63% 63% 37% 37%;
 }
 
 .duck-wing {
-    background-color:rgb(255, 255, 255);
+    background-color: var(--yellow);
     height: 100px;
     width: 100px;
-    border: black solid 4px;
+    border: 4px solid var(--black);
     position: relative;
     top: 30px;
     border-radius: 47% 53% 57% 43% / 100% 0% 100% 0%;
@@ -97,7 +103,7 @@ h1 {
 }
 
 .duck-leg-l {
-    background-color: orange;
+    background-color: var(--orange);
     height: 65px;
     width: 10px;
     position: relative;
@@ -105,7 +111,7 @@ h1 {
 }
 
 .duck-leg-r {
-    background-color: orange;
+    background-color: var(--orange);
     height: 65px;
     width: 10px;
     position: relative;
@@ -114,7 +120,7 @@ h1 {
 }
 
 .duck-foot-l {
-    background-color: orange;
+    background-color: var(--orange);
     height: 20px;
     width: 45px;
     position: relative;
@@ -122,7 +128,7 @@ h1 {
 }
 
 .duck-foot-r {
-    background-color: orange;
+    background-color: var(--orange);
     height: 20px;
     width: 45px;
     position: relative;

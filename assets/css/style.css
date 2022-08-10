@@ -1,6 +1,9 @@
 * {
-    background-color: rgb(232, 210, 174);
     margin: 0 auto;
+}
+
+body {
+    background-color:white
 }
 
 h1 {
@@ -10,8 +13,14 @@ h1 {
     padding-bottom: 40px;
 }
 
+.duck-box {
+    border: 3px solid black;
+    padding: 100px;
+}
+
+/* duck head--------------------------------------------------------- */
 .duck-head {
-    background-color: aliceblue;
+    background-color:rgb(255, 255, 255);
     height: 140px;
     width: 155px;
     position: relative;
@@ -68,15 +77,16 @@ h1 {
     border-radius: 51% 49% 50% 50% / 26% 28% 72% 74%;
 }
 
+/* duck body------------------------------------------------------------- */
 .duck-body {
-    background-color: aliceblue;
+    background-color:rgb(255, 255, 255);
     height: 200px;
     width: 270px;
     border-radius: 50% 50% 44% 56% / 63% 63% 37% 37%;
 }
 
 .duck-wing {
-    background-color: aliceblue;
+    background-color:rgb(255, 255, 255);
     height: 100px;
     width: 100px;
     border: black solid 4px;
